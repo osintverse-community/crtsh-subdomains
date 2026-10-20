@@ -19,7 +19,7 @@ outputs:
 runtime:
   kind: docker
   # Filled in by the release workflow with the pushed image's digest.
-  image: ghcr.io/osintverse-community/crtsh-subdomains@sha256:0000000000000000000000000000000000000000000000000000000000000000
+  image: ghcr.io/osintverse-community/crtsh-subdomains@sha256:5cabece262e2e579154168524ad49350847c4a7a6fba82a2bb208bf94c1990ab
   platforms: [linux/amd64, linux/arm64]
   command: ["crtsh-subdomains", "{domain}"]
   output_format: json
